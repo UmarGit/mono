@@ -218,7 +218,7 @@ export function Editor({ isDark, onToggleDark }: EditorProps) {
       </div>
 
       {/* Bottom Fade Gradient */}
-      <div className={`fixed bottom-0 left-0 right-0 h-32 bg-gradient-to-t ${gradientBottomClass} pointer-events-none z-30`} />
+      <div className={`fixed bottom-0 left-0 right-0 h-32 bg-gradient-to-b ${gradientBottomClass} pointer-events-none z-30`} />
 
       {/* Status Bar */}
       {text && (

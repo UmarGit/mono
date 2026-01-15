@@ -1019,3 +1019,7 @@ html {
   syntax: "*";
   inherits: false
 }
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}
